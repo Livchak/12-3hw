@@ -25,6 +25,8 @@ mysql> SELECT DISTINCT  district
 7 rows in set (0.00 sec)
 
 ```
+DISTINCT позволяет убрать повторения. 
+ORDER BY позволяет отсортировать в алфавитном прядке
 ---
 
 ### Задание 2
