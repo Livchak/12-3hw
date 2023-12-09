@@ -50,8 +50,8 @@ AND CAST(payment_date AS DATE) BETWEEN '2005-06-15' AND '2005-06-18';
 
 ```
 SELECT * 
-FROM payment
-ORDER BY payment_id DESC 
+FROM rental
+ORDER BY rental_id DESC 
 LIMIT 5;
 
 ```
