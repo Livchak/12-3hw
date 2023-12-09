@@ -8,8 +8,6 @@
 
 1. `DISTINCT позволяет убрать повторения.`
 2. `ORDER BY ___ ASC позволяет отсортировать в алфавитном прядке`
-3. `Выражаем колонку paymetn_date из формата datatime в формат date`
-4. `Оператор BETWEEN позволяет выразить диапазон дат "включительно"`
 
 ```
 SELECT DISTINCT  district 
@@ -19,7 +17,7 @@ ORDER BY district ASC;
 
 ```
 1. **Скриншот из консоли задание 1** 
-<img src = "img/12-03-1.png" width = 20%>
+<img src = "img/12-03-1.png" width = 80%>
 
 ---
 
@@ -40,7 +38,7 @@ AND CAST(payment_date AS DATE) BETWEEN '2005-06-15' AND '2005-06-18';
 
 ```
 2. **Скриншот из консоли задание 2** 
-<img src = "img/12-03-2.png" width = 20%>
+<img src = "img/12-03-2.png" width = 80%>
 
 ---
 
